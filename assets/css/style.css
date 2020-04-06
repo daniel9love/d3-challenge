@@ -12,9 +12,14 @@ html {
 body {
   /* Padding bottom by footer height */
   padding-bottom: 80px;
-}
+} 
+#scatter {
+  /* position: absolute; */
+  width: auto;
+  margin: 0 auto !important;
+} 
 
-#footer {
+ #footer {
   position: absolute;
   bottom: 0;
   width: 100%; /* Set the fixed height of the footer here */
@@ -23,7 +28,7 @@ body {
   padding-bottom: 40px;
   text-align: center;
   background-color: #f5f5f5;
-}
+} 
 
 #footer p {
   margin: 0;

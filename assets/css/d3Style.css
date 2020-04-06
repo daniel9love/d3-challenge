@@ -24,7 +24,7 @@
 }
 
 /* font size dependent on radius, see app.js */
-.stateText {
+/* .stateText {
   font-family: sans-serif;
   fill: #fff;
   text-anchor: middle;
@@ -33,7 +33,7 @@
 .stateCircle {
   fill: #89bdd3;
   stroke: #e3e3e3;
-}
+} */
 
 .chart {
   display: block;
@@ -52,6 +52,10 @@
   border-radius: 4px;
 }
 
+.circle:hover {
+  outline: 2px solid gold;
+}
+
 /* Mobile Rules */
 @media screen and (max-width: 530px) {
   .stateText {
@@ -67,4 +71,5 @@
   .aText {
     font-size: 13px;
   }
-}
+}  
+
